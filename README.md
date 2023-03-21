@@ -67,7 +67,7 @@
                 "mobNumber": "87000000",
                 "gender": "male",
                 "creation_date": "12thMarch"
-            },</br>
+            },
             {
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
@@ -75,7 +75,7 @@
                 "mobNumber": "87000000",
                 "gender": "male",
                 "creation_date": "12thMarch"
-            },</br>
+            },
             {
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
