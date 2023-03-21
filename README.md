@@ -59,9 +59,10 @@
   body: array of user model in the form of json</br>
   
   for eg: url: http://localhost:8080/api/users/batch</br>
-          ```
+          
           json:
-          [
+          
+          ```[
             {
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
