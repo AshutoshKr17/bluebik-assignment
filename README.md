@@ -70,18 +70,18 @@
                 "mobNumber": "87000000",
                 "gender": "male",
                 "creation_date": "12thMarch"
-            },```</br>
+            },
             
-            ```{
+            {
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
                 "email": "rem1@gmail.com",
                 "mobNumber": "87000000",
                 "gender": "male",
                 "creation_date": "12thMarch"
-            },```</br>
+            },
             
-            ```{
+            {
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
                 "email": "rem1@gmail.com",
@@ -89,7 +89,8 @@
                 "gender": "male",
                 "creation_date": "12thMarch"
             }
-          ]```
+          ]
+          ```
   
 7.To delete Multiple User in a bulk using ids:</br>
   url : http://localhost:8080/api/users/bulk/{ids}</br>
@@ -104,13 +105,15 @@
   
   for eg: if you want to update user having ids [1 5 7 8].</br>
           url: http://localhost:8080/api/users/bulk/1,5,7,8</br>
-          ```json:
-          {
+          
+          json:
+          ```{
               "firstName": "Ashutosh kumar",
               "lastName": "Kushwaha",
               "email": "rem1@gmail.com",
               "mobNumber": "87000000",
               "gender": "male",
               "creation_date": "12thMarch"
-          }```
+          }
+          ```
       
