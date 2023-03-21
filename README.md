@@ -35,29 +35,29 @@
   url : http://localhost:8080/api/users 
   mapping : Get
   
-3.To Search user using a pattern 
-  url : http://localhost:8080/api/users/search?pattern={pattern} 
-  mapping : Get
-  for eg:If you want to search some names start with ABC.
-        url: http://localhost:8080/api/users/search?pattern=ABC 
+3.To Search user using a pattern </br>
+  url : http://localhost:8080/api/users/search?pattern={pattern} </br>
+  mapping : Get </br>
+  for eg:If you want to search some names start with ABC. </br>
+        url: http://localhost:8080/api/users/search?pattern=ABC </br>
 
-4.To update User using id:
-  url : http://localhost:8080/api/users/{id} 
-  mapping : Put
-  body : user model data in the form of json.
-  for eg: If you want to update user with id 5.
-          url: http://localhost:8080/api/users/5
+4.To update User using id: </br>
+  url : http://localhost:8080/api/users/{id} </br>
+  mapping : Put </br>
+  body : user model data in the form of json.</br>
+  for eg: If you want to update user with id 5.</br>
+          url: http://localhost:8080/api/users/5</br>
           
-5.To delete User with an id:
-  url : http://localhost:8080/api/users/{id}
-  mapping : Delete
+5.To delete User with an id:</br>
+  url : http://localhost:8080/api/users/{id}</br>
+  mapping : Delete</br>
 
-6.To create user in batch:
-  url:http://localhost:8080/api/users/batch
-  mapping: post
-  body: array of user model in the form of json
+6.To create user in batch:</br>
+  url:http://localhost:8080/api/users/batch</br>
+  mapping: post</br>
+  body: array of user model in the form of json</br>
   
-  for eg: url: http://localhost:8080/api/users/batch
+  for eg: url: http://localhost:8080/api/users/batch</br>
           json:
           [
             {
@@ -86,20 +86,20 @@
             }
           ]
   
-7.To delete Multiple User in a bulk using ids:
-  url : http://localhost:8080/api/users/bulk/{ids}
-  mapping : Delete
-  for eg: if you want to delete user having ids [1 5 7 8].
-          url: http://localhost:8080/api/users/bulk/1,5,7,8
+7.To delete Multiple User in a bulk using ids:</br>
+  url : http://localhost:8080/api/users/bulk/{ids}</br>
+  mapping : Delete</br>
+  for eg: if you want to delete user having ids [1 5 7 8].</br>
+          url: http://localhost:8080/api/users/bulk/1,5,7,8</br>
           
-8.To update multiple User in a batch using ids:
-  url : http://localhost:8080/api/users/bulk/{ids}
-  mapping : Put
-  body : user model data in the form of json with updated details.
+8.To update multiple User in a batch using ids:</br>
+  url : http://localhost:8080/api/users/bulk/{ids}</br>
+  mapping : Put</br>
+  body : user model data in the form of json with updated details.</br>
   
-  for eg: if you want to update user having ids [1 5 7 8].
-          url: http://localhost:8080/api/users/bulk/1,5,7,8
-          json:
+  for eg: if you want to update user having ids [1 5 7 8].</br>
+          url: http://localhost:8080/api/users/bulk/1,5,7,8</br>
+          ```json:
           {
               "firstName": "Ashutosh kumar",
               "lastName": "Kushwaha",
@@ -107,5 +107,5 @@
               "mobNumber": "87000000",
               "gender": "male",
               "creation_date": "12thMarch"
-          }
+          }```
       
