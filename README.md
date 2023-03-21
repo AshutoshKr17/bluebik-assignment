@@ -61,8 +61,7 @@
   for eg: url: http://localhost:8080/api/users/batch</br>
           
           json:
-          
-          ```[
+          [
             {
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
@@ -90,7 +89,7 @@
                 "creation_date": "12thMarch"
             }
           ]
-          ```
+          
   
 7.To delete Multiple User in a bulk using ids:</br>
   url : http://localhost:8080/api/users/bulk/{ids}</br>
