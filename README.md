@@ -1,12 +1,12 @@
 # bluebik-assignment
 
-PRE requisites
- spring boot 
- Mysql
- Maven
- Java 11
- 
-Local Setup Step by Step -
+**PRE requisites**
+  spring boot 
+  Mysql
+  Maven
+  Java 11
+
+## Local Setup Step by Step -
 
 1.First Download Demo File into your System.
 2.Then first run DemoApplication.java so that Maven can download all the required dependencies.
@@ -24,7 +24,7 @@ Local Setup Step by Step -
 14.onece you are done setuping up..good to go and you can perfom and rest api calls using postman.
 15.To make api calls the default html tag is for all calls is  http://localhost:8080/api/users you can see that in url there is something 8080 .this is port no where your spring boot application is hosted.
 
-API CALLS :-
+## API CALLS :-
 
 1.To save user or create new user :
   url : http://localhost:8080/api/users 
