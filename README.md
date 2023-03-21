@@ -1,10 +1,10 @@
 # bluebik-assignment
 
 **PRE requisites**
-  spring boot 
-  Mysql
-  Maven
-  Java 11
+  * spring boot
+  * Mysql
+  * Maven
+  * Java 11
 
 ## Local Setup Step by Step -
 
