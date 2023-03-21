@@ -106,7 +106,7 @@
           url: http://localhost:8080/api/users/bulk/1,5,7,8</br>
           
           json:
-          ```{
+          {
               "firstName": "Ashutosh kumar",
               "lastName": "Kushwaha",
               "email": "rem1@gmail.com",
@@ -114,5 +114,4 @@
               "gender": "male",
               "creation_date": "12thMarch"
           }
-          ```
-      
+          
