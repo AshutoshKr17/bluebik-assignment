@@ -26,12 +26,12 @@
 
 ## API CALLS :-
 
-1.To save user or create new user :
-  url : http://localhost:8080/api/users 
-  mapping : Post
-  body : user model data in the form of json.
+1.To save user or create new user :</br>
+  url : http://localhost:8080/api/users </br>
+  mapping : Post </br>
+  body : user model data in the form of json. </br>
   
-2.To getAll users details:
+2.To getAll users details: </br> 
   url : http://localhost:8080/api/users 
   mapping : Get
   
@@ -41,7 +41,7 @@
   for eg:If you want to search some names start with ABC.
         url: http://localhost:8080/api/users/search?pattern=ABC 
 
-4.To update Uuser using id:
+4.To update User using id:
   url : http://localhost:8080/api/users/{id} 
   mapping : Put
   body : user model data in the form of json.
