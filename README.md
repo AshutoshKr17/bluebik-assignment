@@ -58,7 +58,7 @@
   body: array of user model in the form of json</br>
   
   for eg: url: http://localhost:8080/api/users/batch</br>
-          json:
+          ```json:
           [
             {
                 "firstName": "Ashutosh kumar",
@@ -67,7 +67,7 @@
                 "mobNumber": "87000000",
                 "gender": "male",
                 "creation_date": "12thMarch"
-            },
+            },</br>
             {
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
@@ -75,7 +75,7 @@
                 "mobNumber": "87000000",
                 "gender": "male",
                 "creation_date": "12thMarch"
-            },
+            },</br>
             {
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
@@ -84,7 +84,7 @@
                 "gender": "male",
                 "creation_date": "12thMarch"
             }
-          ]
+          ]```
   
 7.To delete Multiple User in a bulk using ids:</br>
   url : http://localhost:8080/api/users/bulk/{ids}</br>
