@@ -68,16 +68,18 @@
                 "mobNumber": "87000000",
                 "gender": "male",
                 "creation_date": "12thMarch"
-            },
-            {
+            },```</br>
+            
+            ```{
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
                 "email": "rem1@gmail.com",
                 "mobNumber": "87000000",
                 "gender": "male",
                 "creation_date": "12thMarch"
-            },
-            {
+            },```</br>
+            
+            ```{
                 "firstName": "Ashutosh kumar",
                 "lastName": "Kushwaha",
                 "email": "rem1@gmail.com",
