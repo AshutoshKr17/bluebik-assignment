@@ -1,4 +1,4 @@
-# bluebik-assignment
+# assignment
 
 **PRE requisites**
   * spring boot
